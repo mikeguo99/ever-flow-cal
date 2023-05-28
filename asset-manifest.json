@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ever-flow-cal/static/css/main.073c9b0a.css",
+    "main.js": "/ever-flow-cal/static/js/main.7803a25e.js",
+    "static/js/787.63f9e1aa.chunk.js": "/ever-flow-cal/static/js/787.63f9e1aa.chunk.js",
+    "static/media/logo.svg": "/ever-flow-cal/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ever-flow-cal/index.html",
+    "main.073c9b0a.css.map": "/ever-flow-cal/static/css/main.073c9b0a.css.map",
+    "main.7803a25e.js.map": "/ever-flow-cal/static/js/main.7803a25e.js.map",
+    "787.63f9e1aa.chunk.js.map": "/ever-flow-cal/static/js/787.63f9e1aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.7803a25e.js"
+  ]
+}
