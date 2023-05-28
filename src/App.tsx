@@ -1,24 +1,28 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+
+function Day(day: number, classNames?: string[]) {
+  classNames = classNames ?? [];
+  return <div className={["Day", ...classNames].join(" ")}>{day}</div>;
+}
+
+function Week() {
+  return <div className="Week">{[1, 2, 3, 4, 5, 6, 7].map((e) => Day(e))}</div>;
+}
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <div className="week-header">日</div>
+        <div className="week-header">一</div>
+        <div className="week-header">二</div>
+        <div className="week-header">三</div>
+        <div className="week-header">四</div>
+        <div className="week-header">五</div>
+        <div className="week-header">六</div>
       </header>
+      <main className="Main">{Week()}</main>
+      <footer></footer>
     </div>
   );
 }
